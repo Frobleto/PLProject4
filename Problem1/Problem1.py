@@ -58,10 +58,13 @@ s_dept = (('ID', 'NAME', 'REGION_ID'),
 
 #print "\nselect last_name, first_name, title, salary, name from s_emp e join s_dept d on(e.dept_id = d.id);", [[i[1],i[2],i[6],i[7],j[1]] for i in s_emp[1::] for j in s_dept[1::] if i[9] == j[0]]
 
-print "\nselect dept_id, avg(salary) from s_emp group by dept_id order by dept_id;"
-for dept in { d[9] for d in s_emp[1::] }: print (dept, (lambda l: round(sum(l) / len(l), 2))(map(float, [e[5] for e in s_emp[1::] if e[7] == dept])))
+#print "\nselect dept_id, avg(salary) from s_emp group by dept_id order by dept_id;"
+#for dept in sorted({ d[9] for d in s_emp[1::] }, key = int):
+#    print (dept, (lambda l: round(sum(l) / len(l), 2))(map(float, [e[7] for e in s_emp[1::] if e[9] == dept])))
 
-#print "\nselect dept_id, avg(salary) from s_emp group by dept_id having avg(salary) < 1500;",
+print "\nselect dept_id, avg(salary) from s_emp group by dept_id having avg(salary) < 1500;",
+for dept in { d[9] for d in s_emp[1::] }:
+    print (dept, (lambda l: round(sum(l) / len(l), 2) if  round(sum(l) / len(l), 2) < 1500 else '')(map(float, [e[7] for e in s_emp[1::] if e[9] == dept])))
 
 
 
