@@ -26,9 +26,20 @@
       <file leaf-file-name="Problem1.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Problem1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.2834758">
-              <caret line="53" column="82" selection-start-line="53" selection-start-column="82" selection-end-line="53" selection-end-column="82" />
-              <folding />
+            <state vertical-scroll-proportion="1.3247863">
+              <caret line="62" column="94" selection-start-line="62" selection-start-column="94" selection-end-line="62" selection-end-column="94" />
+              <folding>
+                <marker date="1458845267000" expanded="true" signature="3082:3102" placeholder="select * fro... s_dept" />
+                <marker date="1458845267000" expanded="true" signature="3082:3103" placeholder="select * fro... s_dept" />
+                <marker date="1458845267000" expanded="true" signature="3116:3170" placeholder="select last_... s_emp" />
+                <marker date="1458845267000" expanded="true" signature="3116:3171" placeholder="select last_... s_emp" />
+                <marker date="1458845267000" expanded="true" signature="3184:3275" placeholder="select last_... s_emp" />
+                <marker date="1458845267000" expanded="true" signature="3289:3399" placeholder="select last_... s_emp" />
+                <marker date="1458845267000" expanded="true" signature="3413:3525" placeholder="select last_... s_emp" />
+                <marker date="1458845267000" expanded="true" signature="3539:3636" placeholder="select last_... s_emp" />
+                <marker date="1458845267000" expanded="true" signature="3650:3722" placeholder="select dept_... s_emp" />
+                <marker date="1458845267000" expanded="true" signature="3736:3817" placeholder="select dept_... s_emp" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -737,12 +748,12 @@
       <created>1458837720328</created>
       <option name="number" value="Default" />
       <updated>1458837720328</updated>
-      <workItem from="1458837731259" duration="5029000" />
+      <workItem from="1458837731259" duration="5685000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5029000" />
+    <option name="totallyTimeSpent" value="5685000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="638" height="800" extended-state="0" />
@@ -782,9 +793,20 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Problem1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.2834758">
-          <caret line="53" column="82" selection-start-line="53" selection-start-column="82" selection-end-line="53" selection-end-column="82" />
-          <folding />
+        <state vertical-scroll-proportion="1.3247863">
+          <caret line="62" column="94" selection-start-line="62" selection-start-column="94" selection-end-line="62" selection-end-column="94" />
+          <folding>
+            <marker date="1458845267000" expanded="true" signature="3082:3102" placeholder="select * fro... s_dept" />
+            <marker date="1458845267000" expanded="true" signature="3082:3103" placeholder="select * fro... s_dept" />
+            <marker date="1458845267000" expanded="true" signature="3116:3170" placeholder="select last_... s_emp" />
+            <marker date="1458845267000" expanded="true" signature="3116:3171" placeholder="select last_... s_emp" />
+            <marker date="1458845267000" expanded="true" signature="3184:3275" placeholder="select last_... s_emp" />
+            <marker date="1458845267000" expanded="true" signature="3289:3399" placeholder="select last_... s_emp" />
+            <marker date="1458845267000" expanded="true" signature="3413:3525" placeholder="select last_... s_emp" />
+            <marker date="1458845267000" expanded="true" signature="3539:3636" placeholder="select last_... s_emp" />
+            <marker date="1458845267000" expanded="true" signature="3650:3722" placeholder="select dept_... s_emp" />
+            <marker date="1458845267000" expanded="true" signature="3736:3817" placeholder="select dept_... s_emp" />
+          </folding>
         </state>
       </provider>
     </entry>
